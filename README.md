@@ -1,3 +1,4 @@
+# Creating a container LXC with a WireguardVPN server
 ## **REQUIREMENTS**
 * **OS**: a Debian template (you can find it by clicking the button "Templates" in *Datacenter* **>** *your_node_name* **>** *local(your_node_name)* **>** *CT Templates*)
   
