@@ -78,11 +78,13 @@ Endpoint = subdomain.domain:51820 #---change this to your DDNS subdomain---
 PersistentKeepalive = persistent_keep_alive #don't change this
 ```
 
-regenerate the QR code for your client
+Regenerate the QR code for your client by installing the QR code encoder:
 
 ```bash
-sudo apt install qrencode -y
+apt install qrencode -y
 ```
+
+And running this command:
 
 ```bash
 qrencode -t ansiutf8 < your_client.conf
